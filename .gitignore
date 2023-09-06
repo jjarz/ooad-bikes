@@ -1,8 +1,14 @@
 # Compiled class file
 *.class
 
+# out dir
+out/
+
+.DS_Store
+
 # Log file
 *.log
+*.idea
 
 # BlueJ files
 *.ctxt
