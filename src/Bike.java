@@ -19,3 +19,14 @@ public abstract class Bike {
 
     public void ride() {}
 }
+
+class EthansBike extends Bike {
+    public EthansBike(String modelName) {
+        super(modelName, "Full Suspension");
+    }
+
+    @Override
+    public void ride() {
+        System.out.println("You are riding Ethan's bike");
+    }
+}
