@@ -4,6 +4,7 @@
 # out dir
 out/
 
+#src dior
 .DS_Store
 
 # Log file
