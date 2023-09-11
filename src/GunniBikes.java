@@ -9,6 +9,7 @@ public class GunniBikes {
         davisBike bike1 = new davisBike("september bike");
         gunniBikes.add(bike1);
         gunniBikes.add(new SuperDopeSickBike("Super Dope Sick Bike"));
+        gunniBikes.add(new DJ("NS suburban"));
         // ride all bikes
         gunniBikes.forEach(b -> b.ride());
     }
