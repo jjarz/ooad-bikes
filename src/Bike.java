@@ -17,5 +17,7 @@ public abstract class Bike {
         this.suspensionType = suspensionType;
     }
 
-    public void ride() {}
+    public void ride() {
+        
+    }
 }

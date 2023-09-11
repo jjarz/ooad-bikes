@@ -8,6 +8,7 @@ public class GunniBikes {
         // Create an instance of your bike subclass and add it to the list
         davisBike bike1 = new davisBike("september bike");
         gunniBikes.add(bike1);
+        gunniBikes.add(new SuperDopeSickBike("Super Dope Sick Bike"));
         // ride all bikes
         gunniBikes.forEach(b -> b.ride());
     }
